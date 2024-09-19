@@ -28,7 +28,7 @@ onMounted(() => {
 
 <template>
     <div class="container mx-auto p-11">
-        <h1 class=" text-2xl">Index Component</h1>
+        <h1 class=" text-2xl">Invoices</h1>
 
         <p v-if="loading">Loading...</p>
 
