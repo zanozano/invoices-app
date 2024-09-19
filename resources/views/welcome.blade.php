@@ -14,7 +14,7 @@
     @vite('resources/css/app.css')
 </head>
 
-<body>
+<body class="bg-slate-50">
     <div id="app"></div>
     @vite('resources/js/app.js')
 </body>
