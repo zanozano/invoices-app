@@ -27,7 +27,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div>
+    <div class=" bg-black">
         <h1>Index Component</h1>
 
         <p v-if="loading">Loading...</p>
