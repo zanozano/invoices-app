@@ -27,14 +27,14 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="container mx-auto p-11">
+    <div class="container mx-auto p-11 overflow-auto">
         <h1 class=" text-2xl">Invoices</h1>
 
         <p v-if="loading">Loading...</p>
 
         <p v-if="error">{{ error }}</p>
 
-        <table v-if="!loading && !error" class="min-w-full divide-y divide-gray-200">
+        <table v-if="!loading && !error" class="min-w-full divide-y divide-gray-200 ">
             <thead class="bg-gray-50">
                 <tr>
                     <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Number
